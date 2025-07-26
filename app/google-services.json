@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1092908597747",
+    "project_id": "kisumu-law-court-leave-system",
+    "storage_bucket": "kisumu-law-court-leave-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092908597747:android:4d571e843dcf43ca105286",
+        "android_client_info": {
+          "package_name": "com.example.kisumulawcourtleavesystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbmN_dXYCIYTD-6DN2VdNE7XqIyAgqjOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- Input field for leave start date -->
+    <EditText
+        android:id="@+id/editTextLeaveStartDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Leave Start Date"
+        android:inputType="date" />
+
+    <!-- Input field for leave end date -->
+    <EditText
+        android:id="@+id/editTextLeaveEndDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Leave End Date"
+        android:inputType="date" />
+
+    <!-- Input field for leave description -->
+    <EditText
+        android:id="@+id/editTextLeaveDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Leave Description"
+        android:inputType="textMultiLine"
+        android:minLines="3" />
+
+</LinearLayout>

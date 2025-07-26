@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Easy Leave</string>
+    <string name="department_count_placeholder">Number of Departments: 5</string>
+    <string name="leave_types_count_placeholder">Number of Leave Types: 3</string>
+    <string name="employee_count_placeholder">Number of Employees: 100</string>
+
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+
+</resources>

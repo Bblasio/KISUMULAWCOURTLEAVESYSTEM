@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KISUMULAWCOURTLEAVESYSTEM"
+        tools:targetApi="31">
+        <activity
+            android:name=".EmployeeLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditEmployeeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RemoveEmployeeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LeavesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyprofileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LeavetypeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DepartmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmployeeDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminOperationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmployeeManagementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

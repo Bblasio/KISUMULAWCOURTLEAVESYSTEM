@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="selectAllCheckbox" type="id" />
+    <item name="removeButton" type="id" />
+    <item name="textViewIdNumber" type="id" />
+    <item name="textViewDesignation" type="id" />
+    <item name="editTextIdNumber" type="id" />
+    <item name="editTextGender" type="id" />
+    <item name="editTextPassword" type="id" />
+    <item name="buttonLogin" type="id" />
+    <item name="buttonMyProfile" type="id" />
+    <item name="buttonApplyLeave" type="id" />
+    <item name="buttonResetPassword" type="id" />
+    <item name="buttonLogout" type="id" />
+    <item name="editTextResetEmail" type="id" />
+</resources>

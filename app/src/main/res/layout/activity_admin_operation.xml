@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/turquoise"
+    tools:context=".AdminOperationActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="Admin Operation"
+        app:navigationIcon="?android:attr/homeAsUpIndicator"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="30sp"
+        android:textColor="@color/material_on_background_emphasis_medium"
+        android:textStyle="bold"
+        android:layout_marginTop="55dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/baseline_person_24"/>
+
+    <Button
+        android:id="@+id/buttonLeave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="View leave"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/imageView"/>
+
+    <Button
+        android:id="@+id/buttonemployees"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Employees"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/buttonLeave"/>
+
+    <Button
+        android:id="@+id/buttonlogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/buttonemployees"/>
+
+    <TextView
+        android:id="@+id/textViewChangePassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Password"
+        android:textSize="20sp"
+        android:layout_marginTop="200dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="230dp"/>
+
+       <Button
+        android:id="@+id/buttonchange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHANGE"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="250dp"
+        android:textSize="20sp"/>
+</RelativeLayout>
