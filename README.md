@@ -97,7 +97,7 @@ Refer to the full documentation for a [detailed test plan](#).
 
 | Phase                  | Duration     |
 |------------------------|--------------|
-| Problem Identification | 2 weeks      |
+| Problem Identification | 3 weeks      |
 | Requirement Analysis   | 2 weeks      |
 | UI/UX Design           | 3 weeks      |
 | Development (Coding)   | 4 weeks      |
@@ -110,10 +110,10 @@ Refer to the full documentation for a [detailed test plan](#).
 
 | Item                      | Cost (KES) |
 |---------------------------|------------|
-| Research                  | 1000       |
-| Materials (stationery)    | 100        |
+| Research                  | 1500       |
+| Materials (stationery)    | 500        |
 | Documentation & Binding   | 750        |
-| **Total**                 | **1850**   |
+| **Total**                 | **2750**   |
 
 ---
 
